@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Survey Form</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Free Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  <form id="survey-form">
+
+     <div class="form-group">
+    <label for="name" id="name-label">Name</label>
+    <input type="text" id="name" placeholder="name" required>
+    </div>
+
+   <div class="form-group">
+    <label for="email" id="email-label">Email</label>
+    <input type="email" id="email" placeholder="email" required>
+    </div>
+
+    <div class="form-group">
+    <label for="number" id="number-label">Age
+    <input type="number" id="number" min="10" max="99" placeholder="age">
+    </div>
+    <div class="form-group">
+      <label for="dropdown">What option best describes you?</label>
+<select id="dropdown">
+  <option>Student</option>
+  <option>Employed</option>
+  </select>
+  </div>
+  <div class="form-group">
+   <label for="">Would you like to learn coding?</label>
+  <label>
+  <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked="">
+  Definitely
+  </label>
+  <label>
+  <input name="user-recommend" value="maybe" type="radio" class="input-radio">Maybe
+</label>
+   </div>
+   <div class="form-group">
+      <label for="">Select your favorite programming language</label>
+<label for="Javascript">
+ <input type="checkbox" value="JavaScript" id="Javascript">Javascript
+ </label>
+
+<label for="CSS">
+ <input type="checkbox" value="CSS" id="CSS">CSS
+ </label>
+
+    <label for="python">
+ <input type="checkbox" value="pyhton" id="python">Pyhton</label>
+
+    <label for="Vanilla">
+ <input type="checkbox" value="Vanilla" id="Vanilla">Vanilla
+ </label>
+
+    <label for="Nodejs">
+ <input type="checkbox" value="Nodejs" id="Nodejs">NodeJS</label>
+    <label for="php">
+ <input type="checkbox" value="php" id="php">PHP</label>
+ </div>
+
+ <textarea rows="5" cols="" id="text-area"></textarea>
+ <input type="submit" id="submit">
+
+
+
+    </form>
+  
+   
+</body>
+</html>
